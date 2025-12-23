@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto text-center space-y-16">
         {/* HERO TEXT — UNCHANGED */}
         <div className="space-y-6">
-          <div className="inline-block p-4 border border-heritage-primary/20 rounded-full mb-6">
+          <div className="inline-block p-4 border border-heritage-primary/20 rounded-full mb-2">
             <span className="material-symbols-outlined text-4xl text-heritage-primary/80">
               temple_hindu
             </span>
@@ -36,9 +36,9 @@ const Footer = () => {
 
         {/* 🌿 REACH OUT FORM */}
         <div className="max-w-md mx-auto">
-          <div className="p-6 bg-heritage-dark/50 border border-white/10 rounded-xl backdrop-blur-sm space-y-6">
+          <div className="p-6 bg-heritage-dark/50 border border-white/70 rounded-xl backdrop-blur-sm space-y-6">
             {/* STEP 1 */}
-            <p className="text-[10px] uppercase tracking-widest text-white/40">
+            <p className="text-[10px] uppercase tracking-widest text-white/70">
               Reach out as
             </p>
 
@@ -51,7 +51,7 @@ const Footer = () => {
                     ${
                       type === item
                         ? "bg-white/70 text-black border-heritage-primary"
-                        : "border-white/20 text-white/60 hover:border-white/40"
+                        : "border-white/40 text-white/60 hover:border-white/40"
                     }`}
                 >
                   {item}
