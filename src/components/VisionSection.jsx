@@ -130,7 +130,7 @@ const VisionSection = () => {
   `}
               />
 
-              <div className="absolute inset-0 flex flex-col justify-end p-10">
+              <div className="hidden absolute inset-0 md:flex flex-col justify-end p-10">
                 <div className="flex items-end justify-between gap-6">
                   <div>
                     <h3 className="font-serif text-4xl text-white mb-2">
@@ -145,7 +145,7 @@ const VisionSection = () => {
             </div>
 
             {/* Inset Text Block Floating Effect */}
-            <div className="absolute -bottom-8 -right-8 max-w-sm bg-heritage-dark p-8 shadow-2xl z-20">
+            <div className="absolute hidden md:block -bottom-8 -right-8 max-w-sm bg-heritage-dark p-8 shadow-2xl z-20">
               <div className="border border-white/10 p-4">
                 <h5 className="font-serif italic text-white text-xl mb-1">
                   The Manuscript Tradition

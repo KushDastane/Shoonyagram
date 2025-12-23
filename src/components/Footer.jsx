@@ -50,7 +50,7 @@ const Footer = () => {
                   className={`px-5 py-2 rounded-full border text-[10px] uppercase tracking-widest transition
                     ${
                       type === item
-                        ? "bg-white/50 text-black border-heritage-primary"
+                        ? "bg-white/70 text-black border-heritage-primary"
                         : "border-white/20 text-white/60 hover:border-white/40"
                     }`}
                 >
@@ -84,7 +84,7 @@ const Footer = () => {
                   className="w-full bg-transparent border border-white/10 rounded-md py-3 px-4 text-white placeholder:text-white/30 text-sm focus:outline-none"
                 />
 
-                <button className="w-full bg-white/50 text-black py-3 uppercase tracking-[0.2em] font-bold text-[10px] hover:bg-white/70 transition rounded">
+                <button className="w-full bg-white/70 text-black py-3 uppercase tracking-[0.2em] font-bold text-[10px] hover:bg-white/90 transition rounded">
                   Let’s Connect
                 </button>
               </div>

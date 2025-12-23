@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-28 md:pt-0">
       {/* Background with Grid/Symmetry feel */}
       <div className="absolute inset-0 grid grid-cols-2 pointer-events-none">
         <div className="absolute inset-0 opacity-10 grayscale">
